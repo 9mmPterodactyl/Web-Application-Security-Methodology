@@ -1,4 +1,4 @@
-# Web Application Security Testing Methodology
+# Web Application Security Testing Methodology For Bug Bounty
 
 **by 9mmPterodactyl**
 
