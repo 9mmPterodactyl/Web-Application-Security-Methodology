@@ -114,7 +114,7 @@ I don't try to test for everything at once. Pick 2-3 vulnerability types and go 
 
 Here's what I look for, depending on what I decided to focus on:
 
-### Indirect Object References (IDOR)
+### Insecure Direct Object References (IDORs)
 
 This is one of my main focuses because it's common and often overlooked.
 
