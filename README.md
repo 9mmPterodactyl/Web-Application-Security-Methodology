@@ -2,21 +2,19 @@
 
 **by 9mmPterodactyl**
 
-This is my approach to bug bounty hunting that I've developed over my time in this field. It's focused on deep recon and systematic testing. 
+This repository documents my personal web application bug bounty methodology, developed through sustained participation across multiple bug bounty platforms.
 
 Shoutout to NahamSec, JHaddix, Professor Messer, the Critical Thinking podcast crew, ars0n security, James Kettle aka albinowax and many others that put out so much great content for people to learn from.  
 
 ## Purpose and Scope
 
-This repository documents my bug bounty–oriented web application vulnerability research methodology. It is optimized for long-running, competitive targets where the objective is to identify high-impact, 
-
-exploitable vulnerabilities under strict program scope and stability constraints.
+This repository documents my bug bounty–oriented web application vulnerability research methodology. It is optimized for long-running, competitive targets where the objective is to identify high-impact, exploitable vulnerabilities under strict program scope and stability constraints.
 
 Unlike professional penetration testing engagements, bug bounty research allows extended time horizons and deep focus on specific vulnerability classes. 
 
 As such, this methodology prioritizes depth over breadth, manual analysis over automated coverage, and exploitability over exhaustive security posture review.
 
-This methodology is not intended to represent how I conduct client-facing security assessments, which are documented separately.
+This methodology is not intended to represent how I conduct client-facing security assessments, which are documented separately. All testing described here is performed exclusively under explicit authorization provided by bug bounty program scopes and rules.
 
 ## Time Horizon and Optimization Strategy
 
@@ -32,15 +30,15 @@ Strict adherence to in-scope assets and rate-limiting requirements
 
 This differs from commercial penetration testing, where limited engagement timelines necessitate broader coverage and prioritized risk identification across the entire application.
 
+As a result, lower-severity configuration issues or defense-in-depth findings may be deprioritized in favor of exploitable attack paths.
+
 ---
 
 ## Vulnerability Classification Framework
 
 While vulnerability discovery in bug bounty research is driven by application-specific behavior and attack surface analysis, findings are evaluated and categorized using the OWASP Top 10 as a baseline framework.
 
-The OWASP Top 10 provides a consistent reference for identifying common and systemic web application risks (e.g., broken access control, injection, authentication failures), 
-
-while deeper research focuses on less common implementation-specific flaws that fall outside generic scanning coverage.
+The OWASP Top 10 provides a consistent reference for identifying common and systemic web application risks (e.g., broken access control, injection, authentication failures), while deeper research focuses on less common implementation-specific flaws that fall outside generic scanning coverage.
 
 ## Phase 1: Initial Information Gathering
 
@@ -59,7 +57,7 @@ I also check if there are any disclosed reports to see what's already been found
 
 ## Phase 2: Reconnaissance
 
-This is where I spend most of my time. The better your recon, the more you find.
+Reconnaissance represents the majority of effort in my bug bounty workflow, as attack surface visibility directly correlates with finding quality.
 
 ### Subdomain Enumeration
 
@@ -231,9 +229,7 @@ Research focus is biased toward vulnerability classes that consistently score Hi
 
 ## Depth-Focused Research vs Broad Assessments
 
-Bug bounty research emphasizes deep investigation into selected attack vectors rather than comprehensive coverage of all application functionality. This approach enables the discovery of complex, 
-
-high-value vulnerabilities that often require sustained analysis and iteration.
+Bug bounty research emphasizes deep investigation into selected attack vectors rather than comprehensive coverage of all application functionality. This approach enables the discovery of complex, high-value vulnerabilities that often require sustained analysis and iteration.
 
 In contrast, professional penetration testing engagements typically prioritize broad coverage within limited timeframes, 
 
