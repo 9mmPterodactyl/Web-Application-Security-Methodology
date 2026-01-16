@@ -2,8 +2,6 @@
 
 **by 9mmPterodactyl**
 
-This repository documents my personal web application bug bounty methodology, developed through sustained participation across multiple bug bounty platforms.
-
 Shoutout to NahamSec, JHaddix, Professor Messer, the Critical Thinking podcast crew, ars0n security, James Kettle aka albinowax and many others that put out so much great content for people to learn from.  
 
 ## Purpose and Scope
